@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{margin: 0;}
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    width: 300px;
+    margin: 100px auto;
+    border-radius: 20px;
+}
+.container img {
+    border-radius: 12px;
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    margin: 20px auto;
+}
+
+.text2 {
+    color: hsl(215, 51%, 70%);
+    margin: 20px auto;
+}
+ p::before{
+    content:url(images/icon-ethereum.svg);
+    margin-right: 5px;
+}
+p span::before {
+    content: url(images/icon-clock.svg);
+    margin-right: 5px;
+}
+p span {
+    padding-left: 90px;
+}
+
+
